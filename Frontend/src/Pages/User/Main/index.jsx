@@ -79,7 +79,11 @@ useEffect(()=>{
               <StyledTableCell className='tabcell' align="right">{row.modelName}</StyledTableCell>
               <StyledTableCell className='tabcell' align="right">{row.year}</StyledTableCell>
               <StyledTableCell className='tabcell' align="right">{row.color}</StyledTableCell>
-              <StyledTableCell className='tabcell' align="right"><Button onClick={()=>handleDelete(row._id)} variant="outlined" color="error">Delete</Button> <Button variant="outlined" color="warning">Edit</Button></StyledTableCell>
+              <StyledTableCell className='tabcell' align="right">
+              <Button onClick={()=>handleDelete(row._id)} variant="outlined" color="error">Delete</Button> 
+              <Button variant="outlined" color="warning">Edit</Button>
+              <NavLink to={`/${row._id}`}> <Button variant="outlined" color="primary">Details</Button></NavLink>
+              </StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

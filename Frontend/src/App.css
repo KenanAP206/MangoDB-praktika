@@ -24,7 +24,9 @@
     }
     button{
       background-color: rgb(255, 255, 255);
-
+      margin: 0px 10px;
     }
   }
 }
+
+

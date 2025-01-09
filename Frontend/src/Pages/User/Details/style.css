@@ -1,0 +1,137 @@
+#product-detail{
+
+    
+    .book-detail-container {
+        display: flex;
+        width: 90%;
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    
+        background-color: #4fd6cb;
+        font-family: 'Arial', sans-serif;
+      }
+      
+      .book-image-section {
+        flex: 1;
+        position: relative;
+        text-align: center;
+      }
+      
+      .book-cover {
+        width: 100%;
+        max-width: 300px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+      
+      .scroll-buttons {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .scroll-buttons button {
+        background: #fff;
+        width: 50px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      .scroll-buttons button:hover {
+        background: #eee;
+      }
+      
+    
+      .book-info-section {
+        flex: 2;
+      }
+      
+      .book-info-section h1 {
+        font-size: 28px;
+        color: white;
+      }
+      
+      .book-info-section h3 {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+      }
+      
+      .book-description {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: white;
+      }
+      
+      .action-buttons {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .start-reading {
+        background-color: #5ecebf;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      
+      .start-reading:hover {
+        background-color: #89f8f8;
+      }
+      
+      .icon-buttons button {
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+      }
+      
+      .icon-buttons button:hover {
+        color: #000;
+      }
+      
+      /* Ekstra Detaylar */
+      .extra-details {
+        margin-top: 20px;
+        display: flex;
+        gap: 40px;
+      }
+      
+      .extra-details h4 {
+        font-size: 16px;
+        color: white;
+      }
+      
+      .extra-details p {
+        font-size: 14px;
+        color: white;
+        margin-top: 5px;
+      }
+      
+      hr {
+        margin: 20px 0;
+        border: 0;
+        border-top: 1px solid #eee;
+      }
+      
+    }
